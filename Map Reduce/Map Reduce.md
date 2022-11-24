@@ -120,7 +120,7 @@
 - GFS divides data into 64MB blocks and stores 3 copies on different machines.
 - Master takes into account the location of the input data and attempts to schedule a map task on a machine that has a replica of the corresponding data.
     - If that is not possible, it schedules the task on a machine that is close to the one that has the corresponding inut split.
-    - Eg: A worker that is running on the same network switch
+    - **Eg**: A worker that is running on the same network switch
 
 ### Task Granularity
 
