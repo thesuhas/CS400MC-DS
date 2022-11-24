@@ -77,7 +77,7 @@
 - Reduce worker iterates through every intermediate record and passes the value to the `reduce` function.
     - The output is then appended to a consolidated output file that is unique to this specific partition.
 - The master wakes up the user program when all the map and reduce jobs are done.
-<br>
+  
 - Post the job, one will find `R` different output files, one per reduce partiton.
     - Typically these do not need to be combined as they are often given as input to another Map-Reduce job.
 
